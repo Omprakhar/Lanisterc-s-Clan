@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+</head>
+<body>
+    <form action="success.html">
+        <caption>Student Registration System</caption><br><br>
+        <label for="fn">First Name</label>
+       <input type="text" id="fn" name="firstname" required><br>
+       <label for="ln">Last Name</label>
+       <input type="text" id="ln" name="lastname" required>
+       <br>
+       <label for="gn">Gender:</label>
+       <input type="radio" name="Gender" value="Male" >Male
+       <input type="radio" name="Gender" value="Female" >Female<br>
+       <label>Email:</label>
+       <input type="email" required><br>
+       <label>Contact:</label>
+       <input type="tel" pattern="[0-9]{10}" required><br>
+       <label>Date of Birth</label>
+       <input type="Date" required>
+       <br>
+       <label>Address:</label>
+       <textarea rows="4"></textarea><br>
+       <label>Language known:</label><br>
+       <input type="checkbox" value="Telugu">Telugu
+       <input type="checkbox" value="Tamil">Tamil
+       <input type="checkbox" value="Marathi">Marathi
+       <input type="checkbox" value="Hindi">Hindi
+       <input type="checkbox" value="English">English
+       <br>
+       <label>Branch:</label>
+       <select>
+        <option value="">Select</option>
+        <option value="CSE">CSE</option>
+        <option value="CSE">ME</option>
+        <option value="CSE">ECE</option>
+        <option value="CSE">Pharmacy</option>
+        <option value="CSE">Arts</option>
+        </select>
+        <br>
+        <label>Resume Upload:</label>
+        <input type="file"><br>
+        <button>Submit</button>
+
+       
+
+    </form>
+</body>
+</html>
